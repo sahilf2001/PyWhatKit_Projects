@@ -1,0 +1,4 @@
+# import necessary module
+import pywhatkit as kt
+
+kt.playonyt("Shape of You song")
