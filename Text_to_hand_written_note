@@ -1,0 +1,7 @@
+# import necessary module
+import pywhatkit as kt
+
+text = "Hai I am Sahil!! So nice to meet you.."
+destination_path = "pic.png"
+
+kt.text_to_handwriting(text,destination_path,[0,0,179])
