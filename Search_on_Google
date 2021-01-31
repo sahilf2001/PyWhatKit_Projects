@@ -1,0 +1,4 @@
+# import necessary module
+import pywhatkit as kt
+
+kt.search("Steve Jobs")
