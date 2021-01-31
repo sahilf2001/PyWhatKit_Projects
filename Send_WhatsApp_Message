@@ -1,0 +1,11 @@
+# import necessary module
+import pywhatkit as kt
+
+target_mobile_number = '1111111111'
+message = 'Hey this is a message from the Python editor - Pycharm'
+time_hour = 22
+time_min = 45
+wait_time = 25
+
+# call the method
+kt.sendwhatmsg(f"+91{target_mobile_number}",message,time_hour,time_min,wait_time)
