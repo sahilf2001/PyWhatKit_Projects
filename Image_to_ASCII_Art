@@ -1,0 +1,12 @@
+# import necessary module
+import pywhatkit as kt
+
+# display welcome msg
+print("Let's turn images to ASCII art!")
+
+# capture source and target path
+source_path = 'sf.jpg'
+target_path = 'ascii_art.text'
+
+# call the method
+kt.image_to_ascii_art(source_path,target_path)
